@@ -131,3 +131,20 @@ hr{
         margin-bottom: 25px;
     }
 }
+
+/* Another devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .player-items, .blogs, .course-items{
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #eeeeee;
+    }
+    .player{
+        flex-direction: column;
+    }
+    .course{
+        margin-bottom: 25px;
+    }
+}
